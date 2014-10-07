@@ -40,5 +40,5 @@ if __name__ == "__main__":
         features   = [ f(transcript) for f in FEATURES_DAN ]
         csv.append( ','.join([ str(f) for f in features ] + [label]) )
 
-    with open('features_dan.csv', 'w') as fout:
+    with open('features_dan.csv', 'a') as fout:
         fout.write( '\n'.join(csv) + '\n' )
