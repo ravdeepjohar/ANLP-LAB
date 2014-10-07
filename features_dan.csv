@@ -245,7 +245,6 @@
 3.586206896551724,6,0,dementia
 3.9672131147540983,8,2,Other
 3.674698795180723,12,0,dementia
-#num_letters_per_word,num_sentences,num_nonword_sounds,Label
 3.8300653594771243,18,0,control
 3.8796296296296298,15,0,control
 3.8466257668711656,16,0,control
